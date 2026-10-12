@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261012-02-d96c110","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/486a2977e39ad380.telemetry_sdk.js" integrity="sha512-6RGhG0lZ6QriXSp9fyZ35krENb9O9A9i6UklGaEPAGRJqlg443gszr5+rhcE8tJU48EjVhUuSuTu4g7tRHuFHA=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PocketSmart AI — Smart planning within your budget</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#172541;--blue:#365fd7;--violet:#7461d7;--ink:#24334d;--muted:#65728a;--line:#e5eaf4;--surface:#fff;--wash:#f5f7fc;--success:#167c63}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"DM Sans",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.56;cursor:not-allowed}a{color:inherit;text-decoration:none}:focus-visible{outline:3px solid #7566e4;outline-offset:3px}img{display:block}.serif{font-family:Fraunces,Georgia,serif}.page-wrap{width:100%;min-height:calc(100 * min(var(--vh, 1vh), 1vh));background:#f6f8fc}.shell{max-width:1240px;margin:auto;padding:0 24px}.pill{display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:8px 13px;background:#ebeefe;color:#4d48a2;font-weight:700;font-size:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:12px;padding:12px 19px;font-weight:700;transition:transform .2s,box-shadow .2s;border:1px solid transparent}.btn:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 20px #263c7721}.primary{background:#365fd7;color:white}.secondary{background:white;color:#29416b;border-color:#dbe2f1}.subtle{background:#eef1fb;color:#344a80}.danger{background:#fff0f1;color:#a52e47}.card{background:white;border:1px solid var(--line);border-radius:19px;box-shadow:0 8px 26px #162a5209}.muted{color:var(--muted)}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#5b62b3}.section-pad{padding:80px 0}.icon{width:19px;height:19px;flex:none}.photo{width:100%;height:190px;object-fit:cover;background:linear-gradient(120deg,#dce8ff,#dcd5fc)}.photo-slot{background:linear-gradient(120deg,#dce8ff,#dcd5fc);overflow:hidden}.photo-slot img:not([src]){visibility:hidden}.hero{background:radial-gradient(circle at 72% 25%,#dbdcff 0,transparent 37%),linear-gradient(135deg,#f5f8ff,#eef3ff 65%,#f8f7ff);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1fr .92fr;align-items:center;gap:55px;padding:92px 0 100px}.hero h1{font-size:clamp(43px,5.3vw,76px);line-height:1.07;letter-spacing:-.05em;color:var(--navy);margin:19px 0 24px}.hero p{font-size:18px;line-height:1.7;max-width:530px}.preview{padding:22px;transform:rotate(2deg);box-shadow:0 35px 65px #3d58a124}.preview-dark{background:#192a51;color:white;border-radius:15px;padding:24px}.preview-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.preview-stat{border-radius:11px;background:#ffffff16;padding:14px}.preview-stat strong{display:block;margin-top:8px}.preview-line{height:8px;background:#e7ecf7;border-radius:30px;overflow:hidden}.preview-line span{display:block;width:67%;height:100%;background:linear-gradient(90deg,#5476dc,#9a85ea)}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.feature{overflow:hidden}.feature-body{padding:24px}.feature-body h3{font-size:21px;margin:5px 0 10px;color:var(--navy)}.step{padding:25px}.step-number{font-size:13px;font-weight:800;color:#526bd4}.site-header{background:white;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.site-nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:74px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--navy);white-space:nowrap}.brand-mark{display:grid;place-items:center;width:34px;height:34px;color:white;background:linear-gradient(135deg,#3b68e4,#8065dd);border-radius:11px}.site-links{display:flex;align-items:center;gap:20px;font-size:13px;font-weight:700}.site-links a:hover,.text-link:hover{color:var(--blue)}.landing-title{font-size:clamp(31px,3vw,44px);line-height:1.16;color:var(--navy);margin:12px 0}.dark-block{background:#18294e;color:white;border-radius:25px;padding:48px}.dark-block h2{color:white}.faq{border-bottom:1px solid #dbe2f1;padding:15px 0}.faq summary{cursor:pointer;font-weight:700}.faq p{line-height:1.65}.site-footer{background:#152746;color:#e1e9fa;padding:54px 0}.site-footer a{color:#cbd8ef}.app-layout{display:flex;min-height:calc(100 * min(var(--vh, 1vh), 1vh))}.sidebar{width:246px;flex:none;background:#172747;color:#e9effc;padding:22px 13px;position:sticky;top:0;height:calc(100 * min(var(--vh, 1vh), 1vh));overflow:auto}.sidebar .brand{color:white;margin:5px 10px 30px}.side-label{font-size:10px;letter-spacing:.14em;color:#aab9db;font-weight:800;margin:20px 13px 9px}.side-btn{display:flex;align-items:center;gap:12px;width:100%;border:0;background:transparent;color:#dae3f7;padding:11px 13px;border-radius:11px;text-align:left;font-size:13px;font-weight:700}.side-btn:hover,.side-btn.active{background:#ffffff19;color:white}.side-btn.active{box-shadow:inset 3px 0 #a395ff}.app-content{flex:1;min-width:0}.app-top{height:72px;background:white;border-bottom:1px solid var(--line);padding:0 30px;display:flex;align-items:center;justify-content:space-between;gap:12px}.app-main{max-width:1190px;margin:0 auto;padding:32px 30px 75px}.view-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:26px}.view-head h1{font-size:clamp(29px,3vw,40px);line-height:1.15;color:var(--navy);margin:8px 0}.stat-card{padding:22px}.stat-card strong{display:block;font-size:27px;color:var(--navy);margin:8px 0}.planner-banner{display:grid;grid-template-columns:1.4fr .6fr;align-items:center;overflow:hidden;margin-bottom:24px}.planner-banner>div:first-child{padding:26px}.planner-banner .photo-slot{height:195px}.planner-banner img{height:195px}.form-card{padding:26px}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}.field{min-width:0}.field.full{grid-column:1/-1}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:7px;color:#30405d}.field input,.field select,.field textarea{width:100%;background:#fff;border:1px solid #ced7e7;border-radius:10px;padding:11px 12px;min-height:46px;color:var(--navy)}.field textarea{min-height:90px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-color:#6c65dd;outline:3px solid #7566e42a}.hint{font-size:12px;color:var(--muted);margin-top:6px}.error-text{color:#a52e47;font-size:13px;margin:9px 0}.result-item{display:flex;gap:15px;align-items:flex-start;padding:17px;border:1px solid var(--line);border-radius:13px;background:white}.item-thumb{height:80px;width:88px;flex:none;border-radius:9px;object-fit:cover;background:linear-gradient(120deg,#dce8ff,#e4dafb)}.break-row{display:flex;justify-content:space-between;gap:12px;margin:12px 0;font-size:14px}.bar{height:9px;background:#ecf0f7;border-radius:9px;overflow:hidden}.bar-fill{height:100%;border-radius:9px;background:linear-gradient(90deg,#466de0,#8e74e2)}.activity-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}.activity-row:last-child{border:0}.filters{display:flex;gap:10px;flex-wrap:wrap}.filters input,.filters select{border:1px solid #cfd8e8;background:white;border-radius:10px;padding:10px 12px;min-height:43px}.empty{padding:40px;text-align:center;border:1px dashed #c8d3e8;border-radius:17px;color:var(--muted)}.empty svg{margin:auto auto 12px;color:#7284bb}.notice{border-radius:12px;padding:14px 16px;background:#eef2ff;color:#344777;font-size:13px;line-height:1.6}.warning{background:#fff4e3;color:#784d15}.modal-backdrop{position:fixed;inset:0;background:#101c39a8;z-index:60;display:grid;place-items:center;padding:20px}.modal{background:white;border-radius:19px;max-width:440px;width:100%;padding:26px;box-shadow:0 25px 80px #101b3d55}.toast{position:fixed;bottom:22px;right:22px;z-index:70;background:#18294e;color:white;border-radius:11px;padding:13px 18px;box-shadow:0 15px 40px #111b3e3b}.mobile-menu{display:none}.upload-preview{max-height:170px;max-width:100%;object-fit:contain;border-radius:10px}.mini-list{margin:0;padding-left:20px;line-height:1.9}.app-view[hidden],#landing[hidden],#workspace[hidden]{display:none!important}@media(max-width:1000px){.site-links{gap:11px}.site-links a:nth-child(3),.site-links a:nth-child(4),.site-links a:nth-child(5){display:none}.sidebar{width:205px}.grid3{gap:13px}}@media(max-width:760px){.hero-grid,.planner-banner{grid-template-columns:1fr}.hero-grid{padding:65px 0;gap:35px}.preview{transform:none}.grid3,.grid2{grid-template-columns:1fr}.site-links a{display:none}.site-links .btn{display:inline-flex}.sidebar{position:fixed;z-index:45;left:0;transform:translateX(-105%);transition:transform .25s;width:min(290px,85vw);box-shadow:15px 0 40px #14243c2b}.sidebar.open{transform:translateX(0)}.mobile-menu{display:inline-flex}.app-top{padding:0 18px}.app-main{padding:25px 17px 60px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.view-head{align-items:start;flex-direction:column}.shell{padding:0 18px}.section-pad{padding:57px 0}.planner-banner .photo-slot,.planner-banner img{height:150px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/6739934784996595.data_sdk.js" type="text/javascript" integrity="sha512-aHih8MxSNczT9xRyOUq01Vmx230URMZj+8SR3fa6IZ4ScQSlODcJ0UFHLNv4yeUNpouT9N1Dq//VhTGgYsIH3g=="></script>
+  <script src="/_sdk/f35087cf86290a33.editing_sdk.js" type="text/javascript" integrity="sha512-0mbfNVTwbL0jObU6oAxxR5ze1N+oYmbuEj9U1b4T49vSBeEkZoZHWPh6ZDT5m6/VH3g3YGCJo2G9/z6qkXc02w=="></script>
+  <script src="/_sdk/056c9619db603d29.resizing_sdk.js" type="text/javascript" integrity="sha512-M+H3L4m9QQRx/o9ibl2pgmK12j+m7IzyXqQYPu51UsEwWvMSULNPd1Mc6Ou1S2PXfxZHFCe8Axqt+diUPCpRiw=="></script>
+ </head>
+ <body data-template-id="__page-root" class="page-wrap w-full" style="background: rgb(246, 248, 252);">
+  <div id="landing">
+   <header data-template-id="public-header" class="canva-header site-header" style="background: rgb(255, 255, 255);">
+    <nav class="shell site-nav" aria-label="Public navigation"><a class="brand" href="#home"><span class="brand-mark"><i data-lucide="wallet-cards" class="icon"></i></span><span data-template-id="public-brand" class="canva-text" style="color: rgb(23, 37, 65); font-weight: 800; font-style: normal; font-size: 16px;">PocketSmart AI</span></a>
+     <div class="site-links"><a data-template-id="nav-home" class="canva-link" href="#home" style="color: rgb(36, 51, 77); font-weight: 400; font-style: normal; font-size: 16px;">Home</a><a data-template-id="nav-features" class="canva-link" href="#features" style="color: rgb(36, 51, 77); font-weight: 400; font-style: normal; font-size: 16px;">Features</a><a data-template-id="nav-how" class="canva-link" href="#how" style="color: rgb(36, 51, 77); font-weight: 400; font-style: normal; font-size: 16px;">How It Works</a><a data-template-id="nav-about" class="canva-link" href="#about" style="color: rgb(36, 51, 77); font-weight: 400; font-style: normal; font-size: 16px;">About</a><a data-template-id="nav-testimonials" class="canva-link" href="#testimonials" style="color: rgb(36, 51, 77); font-weight: 400; font-style: normal; font-size: 16px;">Testimonials</a> <a data-template-id="nav-workspace" class="canva-button btn primary" href="#overview" style="background: rgb(54, 95, 215); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Open demo workspace</a>
+     </div>
+    </nav>
+   </header>
+   <main>
+    <section data-template-id="hero-section" class="canva-section hero" id="home" style="background: linear-gradient(135deg, rgb(245, 248, 255), rgb(238, 243, 255));">
+     <div class="shell hero-grid">
+      <div><span data-template-id="hero-kicker" class="canva-tag pill" style="background: rgb(235, 238, 254); color: rgb(77, 72, 162); font-weight: 700; font-style: normal; font-size: 12px;">✦ THE SMARTER WAY TO PLAN</span>
+       <h1 data-template-id="hero-heading" class="canva-text serif" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 32px;">Smart Planning. Better Choices. Within Your Budget.</h1>
+       <p data-template-id="hero-copy" class="canva-text muted" style="color: rgb(101, 114, 138); font-weight: 400; font-style: normal; font-size: 18px;">Your personal AI assistant for smarter home decor, memorable parties, and perfect jewelry choices.</p>
+       <div class="flex flex-wrap gap-3 mt-8"><a data-template-id="hero-start" class="canva-button btn primary" href="#overview" style="background: rgb(54, 95, 215); color: rgb(255, 255, 255);">Get Started <i data-lucide="arrow-up-right" class="icon"></i></a> <a data-template-id="hero-explore" class="canva-button btn secondary" href="#features" style="background: rgb(255, 255, 255); color: rgb(41, 65, 107); font-weight: 400; font-style: normal; font-size: 16px;">Explore Planners</a>
+       </div>
+       <p class="hint mt-5">Academic demonstration · No live AI or merchant pricing is connected.</p>
+      </div>
+      <div class="card preview" aria-label="Illustrative dashboard preview with sample figures">
+       <div class="preview-dark">
+        <div class="flex justify-between items-center">
+         <strong>PocketSmart / overview</strong><span class="pill">SAMPLE PREVIEW</span>
+        </div>
+        <p class="text-sm text-blue-100 mt-6 mb-4">A clearer picture of every plan.</p>
+        <div class="preview-stats">
+         <div class="preview-stat">
+          <small>Example budget</small><strong>₹30,000</strong>
+         </div>
+         <div class="preview-stat">
+          <small>Example estimate</small><strong>₹20,100</strong>
+         </div>
+         <div class="preview-stat">
+          <small>Example left</small><strong>₹9,900</strong>
+         </div>
+        </div>
+       </div>
+       <div class="p-5">
+        <div class="flex justify-between text-sm font-bold mb-3">
+         <span>Illustrative allocation</span><span>67%</span>
+        </div>
+        <div class="preview-line">
+         <span></span>
+        </div>
+        <div class="grid grid-cols-2 gap-3 mt-5">
+         <div class="rounded-xl bg-blue-50 p-4">
+          <strong>⌂ &nbsp;Home interior</strong>
+          <p class="hint">Plan by priority</p>
+         </div>
+         <div class="rounded-xl bg-violet-50 p-4">
+          <strong>✧ &nbsp;Jewelry</strong>
+          <p class="hint">Style within budget</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="section-pad" id="features">
+     <div class="shell">
+      <span class="eyebrow">Three focused planners</span>
+      <h2 data-template-id="features-heading" class="canva-text serif landing-title" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 24px;">Ideas worth planning for.</h2>
+      <p data-template-id="features-copy" class="canva-text muted mb-8" style="color: rgb(101, 114, 138); font-weight: 400; font-style: normal; font-size: 16px;">From a fresh living space to a celebration or finishing touch, start with what matters most.</p>
+      <div class="grid3">
+       <article data-template-id="home-feature" class="canva-card card feature" style="background: rgb(255, 255, 255);">
+        <div class="photo-slot">
+         <img data-template-id="home-photo" class="canva-image photo" loading="lazy" src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Contemporary living room with neutral tones, a sleek sofa, and an elegant wooden staircase">
+        </div>
+        <div class="feature-body">
+         <span class="eyebrow">01 / SPACE</span>
+         <h3 data-template-id="home-feature-title" class="canva-text" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 19px;">Home Interior Planner</h3>
+         <p data-template-id="home-feature-copy" class="canva-text muted" style="color: rgb(101, 114, 138); font-weight: 400; font-style: normal; font-size: 16px;">Shape a room you love with considered furniture, lighting and finishing touches.</p><a data-template-id="home-feature-link" class="canva-link font-bold text-blue-700" href="#home-planner" style="color: rgb(54, 95, 215); font-weight: 700; font-style: normal; font-size: 16px;">Explore planner →</a>
+        </div>
+       </article>
+       <article data-template-id="party-feature" class="canva-card card feature" style="background: rgb(255, 255, 255);">
+        <div class="photo-slot">
+         <img data-template-id="party-photo" class="canva-image photo" loading="lazy" src="https://images.pexels.com/photos/1729797/pexels-photo-1729797.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Birthday cake with lit sparklers and fresh strawberries">
+        </div>
+        <div class="feature-body">
+         <span class="eyebrow">02 / CELEBRATE</span>
+         <h3 data-template-id="party-feature-title" class="canva-text" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 19px;">Party Budget Planner</h3>
+         <p data-template-id="party-feature-copy" class="canva-text muted" style="color: rgb(101, 114, 138); font-weight: 400; font-style: normal; font-size: 16px;">Bring people together with a practical event estimate, category by category.</p><a data-template-id="party-feature-link" class="canva-link font-bold text-blue-700" href="#party-planner" style="color: rgb(54, 95, 215); font-weight: 700; font-style: normal; font-size: 16px;">Explore planner →</a>
+        </div>
+       </article>
+       <article data-template-id="jewelry-feature" class="canva-card card feature" style="background: rgb(255, 255, 255);">
+        <div class="photo-slot">
+         <img data-template-id="jewelry-photo" class="canva-image photo" loading="lazy" src="https://images.pexels.com/photos/36160928/pexels-photo-36160928.jpeg" alt="Necklace and earrings displayed against a dark background">
+        </div>
+        <div class="feature-body">
+         <span class="eyebrow">03 / ADORN</span>
+         <h3 data-template-id="jewelry-feature-title" class="canva-text" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 19px;">AI Jewelry Assistant</h3>
+         <p data-template-id="jewelry-feature-copy" class="canva-text muted" style="color: rgb(101, 114, 138); font-weight: 400; font-style: normal; font-size: 16px;">Explore jewelry ideas that reflect your occasion, outfit colors and price range.</p><a data-template-id="jewelry-feature-link" class="canva-link font-bold text-blue-700" href="#jewelry-planner" style="color: rgb(54, 95, 215); font-weight: 700; font-style: normal; font-size: 16px;">Explore planner →</a>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section class="section-pad bg-[#eef2fa]" id="how">
+     <div class="shell">
+      <span class="eyebrow">How it works</span>
+      <h2 data-template-id="workflow-heading" class="canva-text serif landing-title" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 24px;">A thoughtful plan in four steps.</h2>
+      <div class="grid2 mt-8">
+       <div class="card step">
+        <span class="step-number">01</span>
+        <h3 class="font-bold mt-3">Choose a category</h3>
+        <p class="muted">Start with home, party or jewelry.</p>
+       </div>
+       <div class="card step">
+        <span class="step-number">02</span>
+        <h3 class="font-bold mt-3">Enter budget &amp; preferences</h3>
+        <p class="muted">Tell the planner what matters to you.</p>
+       </div>
+       <div class="card step">
+        <span class="step-number">03</span>
+        <h3 class="font-bold mt-3">Review the estimate</h3>
+        <p class="muted">This prototype calculates demo suggestions. In a connected deployment, Gemini can analyze requirements on the server.</p>
+       </div>
+       <div class="card step">
+        <span class="step-number">04</span>
+        <h3 class="font-bold mt-3">Review &amp; save your plan</h3>
+        <p class="muted">Keep your choices in this browser and return when you need them.</p>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="section-pad" id="about">
+     <div class="shell grid2 items-center">
+      <div>
+       <span class="eyebrow">Why PocketSmart</span>
+       <h2 data-template-id="about-heading" class="canva-text serif landing-title" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 24px;">Better decisions begin with a clearer budget.</h2>
+       <p data-template-id="about-copy" class="canva-text muted leading-7" style="color: rgb(101, 114, 138); font-weight: 400; font-style: normal; font-size: 16px;">PocketSmart AI is an academic product concept designed to make lifestyle planning easier to understand. Its demo estimates separate essentials, show what remains, and help you compare ideas without presenting invented listings as real offers.</p>
+       <ul class="mini-list mt-5">
+        <li>Estimates grounded in your entered budget</li>
+        <li>Transparent category breakdowns</li>
+        <li>Plans you can revisit and refine</li>
+       </ul>
+      </div>
+      <div class="card p-8 bg-[#edf2ff]">
+       <span class="pill">BUDGET-AWARE BY DESIGN</span>
+       <h3 class="serif text-3xl mt-5 text-[#172541]">Know where every rupee could go.</h3>
+       <p class="muted leading-7 mt-4">The demo allocates a portion of your budget to recommendations and leaves a visible buffer. Estimated costs are illustrative, not merchant quotes or real-time availability.</p>
+       <div class="mt-5 preview-line">
+        <span></span>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="section-pad bg-[#eef2fa]" id="testimonials">
+     <div class="shell">
+      <span class="eyebrow">Academic illustration</span>
+      <h2 data-template-id="testimonial-heading" class="canva-text serif landing-title" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 24px;">What the experience could feel like.</h2>
+      <div class="card p-7 mt-7 max-w-2xl">
+       <span data-template-id="testimonial-label" class="canva-tag pill" style="background: rgb(235, 238, 254); color: rgb(77, 72, 162); font-weight: 400; font-style: normal; font-size: 16px;">Sample testimonial for academic demonstration</span>
+       <blockquote data-template-id="testimonial-quote" class="canva-text text-xl leading-relaxed mt-5" style="color: rgb(36, 51, 77); font-weight: 400; font-style: normal; font-size: 20px;">“I could see how an event budget might be divided before making a single booking.”</blockquote>
+       <p class="muted mt-4">Illustrative scenario · Not a customer review</p>
+      </div>
+     </div>
+    </section>
+    <section class="section-pad">
+     <div class="shell grid2 gap-10">
+      <div>
+       <span class="eyebrow">Questions, answered</span>
+       <h2 data-template-id="faq-heading" class="canva-text serif landing-title" style="color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 24px;">Good to know.</h2>
+      </div>
+      <div>
+       <details class="faq">
+        <summary>Are these live Gemini recommendations?</summary>
+        <p class="muted">No. This standalone prototype generates clearly labelled demo estimates. A real deployment needs a server-side FastAPI and Gemini integration.</p>
+       </details>
+       <details class="faq">
+        <summary>Are product prices and availability verified?</summary>
+        <p class="muted">No. Prices are illustrative. Search links open platform searches, not verified listings.</p>
+       </details>
+       <details class="faq">
+        <summary>Where are saved plans kept?</summary>
+        <p class="muted">Only in this browser on this device. Clear browser data or use another device and the plans will not follow you.</p>
+       </details>
+      </div>
+     </div>
+    </section>
+    <section class="pb-20">
+     <div class="shell">
+      <div data-template-id="landing-cta" class="canva-banner dark-block text-center" style="background: rgb(24, 41, 78);">
+       <span class="eyebrow text-blue-200">START WITH A NUMBER</span>
+       <h2 data-template-id="cta-heading" class="canva-text serif landing-title" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">Make room for smarter choices.</h2>
+       <p data-template-id="cta-copy" class="canva-text text-blue-100 mb-6" style="color: rgb(219, 232, 255); font-weight: 400; font-style: normal; font-size: 16px;">Explore a planner and turn your budget into a practical starting point.</p><a data-template-id="cta-button" class="canva-button btn bg-white text-[#172541]" href="#overview" style="background: rgb(255, 255, 255); color: rgb(23, 37, 65); font-weight: 700; font-style: normal; font-size: 16px;">Open the demo workspace →</a>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer data-template-id="public-footer" class="canva-footer site-footer" style="background: rgb(21, 39, 70);">
+    <div class="shell flex flex-wrap justify-between gap-10">
+     <div>
+      <strong>PocketSmart AI</strong>
+      <p class="text-sm mt-3 max-w-xs text-blue-100">An academic demonstration of smarter lifestyle planning.</p>
+     </div>
+     <div class="flex flex-wrap gap-7 text-sm">
+      <a href="#about">About</a><a href="#features">Features</a><a href="mailto:contact@example.org?subject=PocketSmart%20AI%20academic%20project">Contact (placeholder)</a><a href="#settings">Privacy information</a><a href="#settings">Terms information</a>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <div id="workspace" class="app-layout" hidden="">
+   <aside id="sidebar" class="sidebar" aria-label="Workspace navigation"><a href="#home" class="brand"><span class="brand-mark"><i data-lucide="wallet-cards" class="icon"></i></span><span>PocketSmart AI</span></a>
+    <p class="side-label">WORKSPACE</p>
+    <nav id="side-nav" aria-label="Planner navigation"><button data-view="overview" class="side-btn" type="button"><i data-lucide="layout-dashboard" class="icon"></i>Overview</button> <button data-view="home-planner" class="side-btn" type="button"><i data-lucide="house" class="icon"></i>Home Interior Planner</button> <button data-view="party-planner" class="side-btn" type="button"><i data-lucide="party-popper" class="icon"></i>Party Planner</button> <button data-view="jewelry-planner" class="side-btn" type="button"><i data-lucide="gem" class="icon"></i>Jewelry Planner</button>
+     <p class="side-label">YOUR PLANNING</p><button data-view="recommendations" class="side-btn" type="button"><i data-lucide="bookmark" class="icon"></i>My Recommendations</button> <button data-view="history" class="side-btn" type="button"><i data-lucide="history" class="icon"></i>Recommendation History</button> <button data-view="insights" class="side-btn" type="button"><i data-lucide="chart-no-axes-combined" class="icon"></i>Budget Insights</button>
+     <p class="side-label">PREFERENCES</p><button data-view="profile" class="side-btn" type="button"><i data-lucide="user-round" class="icon"></i>Profile</button> <button data-view="settings" class="side-btn" type="button"><i data-lucide="settings-2" class="icon"></i>Settings</button> <button data-view="home" class="side-btn" type="button"><i data-lucide="arrow-left" class="icon"></i>Back to website</button>
+    </nav>
+    <div class="notice mt-8 bg-[#ffffff14] text-blue-100">
+     ● Demo mode<br><span class="text-xs">No live Gemini connection.</span>
+    </div>
+   </aside>
+   <div class="app-content">
+    <header class="app-top">
+     <div class="flex items-center gap-3">
+      <button id="menu-toggle" type="button" class="mobile-menu btn secondary !p-2" aria-label="Open navigation" aria-expanded="false"><i data-lucide="menu" class="icon"></i></button>
+      <div>
+       <div id="breadcrumb" class="text-xs muted">
+        Workspace / Overview
+       </div><strong id="top-title" class="text-sm text-[#172541]">Overview</strong>
+      </div>
+     </div>
+     <div class="flex items-center gap-3">
+      <span class="pill">● Demo mode</span><button type="button" data-view="profile" class="btn secondary !p-2" aria-label="Open profile"><i data-lucide="user-round" class="icon"></i></button>
+     </div>
+    </header>
+    <main class="app-main">
+     <section id="view-overview" class="app-view">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Your planning desk</span>
+        <h1 id="welcome" class="serif">Welcome to PocketSmart.</h1>
+        <p class="muted">Choose a planner and make a little more room in your budget.</p>
+       </div><button type="button" data-view="home-planner" class="btn primary">Create a plan <i data-lucide="arrow-right" class="icon"></i></button>
+      </div>
+      <div id="overview-stats" class="grid3 mb-6"></div>
+      <div class="grid3 mb-8"><button type="button" data-view="home-planner" class="card text-left p-5 hover:border-blue-400"><span class="pill">⌂ HOME</span><strong class="block mt-4">Design your space</strong><span class="muted text-sm">Furniture, lighting and decor →</span></button> <button type="button" data-view="party-planner" class="card text-left p-5 hover:border-blue-400"><span class="pill">✧ PARTY</span><strong class="block mt-4">Plan a gathering</strong><span class="muted text-sm">Venue, food and celebration →</span></button> <button type="button" data-view="jewelry-planner" class="card text-left p-5 hover:border-blue-400"><span class="pill">◇ JEWELRY</span><strong class="block mt-4">Find the finishing touch</strong><span class="muted text-sm">Style, occasion and budget →</span></button>
+      </div>
+      <div class="grid2">
+       <section class="card p-6">
+        <h2 class="font-bold text-lg mb-3">Recent activity</h2>
+        <div id="recent-activity"></div>
+       </section>
+       <section class="card p-6">
+        <h2 class="font-bold text-lg mb-3">Budget overview</h2>
+        <div id="overview-budget"></div>
+       </section>
+      </div>
+     </section>
+     <section id="view-home-planner" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Planner 01</span>
+        <h1 class="serif">Home Interior Planner</h1>
+        <p class="muted">Build a considered look without losing sight of your limit.</p>
+       </div>
+      </div>
+      <div class="card planner-banner">
+       <div>
+        <span class="pill">INTERIORS</span>
+        <h2 class="text-xl font-bold mt-4">Start with the space. We’ll map the essentials.</h2>
+        <p class="muted mt-2">Illustrative costs only; compare actual prices before buying.</p>
+       </div>
+       <div class="photo-slot">
+        <img data-template-id="planner-home-photo" class="canva-image photo" loading="lazy" src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Contemporary living room with neutral tones, a sleek sofa, and an elegant wooden staircase">
+       </div>
+      </div>
+      <form id="form-home" class="card form-card" novalidate="">
+       <div class="form-grid">
+        <div class="field">
+         <label for="h-budget">Total budget (₹) *</label><input id="h-budget" name="budget" type="number" min="1" step="1" required="" placeholder="30000">
+        </div>
+        <div class="field">
+         <label for="h-room">Room type *</label><select id="h-room" name="room" required=""><option value="">Choose a room</option><option>Bedroom</option><option>Living Room</option><option>Kitchen</option><option>Study Room</option><option>Entire Home</option></select>
+        </div>
+        <div class="field">
+         <label for="h-style">Interior style *</label><select id="h-style" name="style" required=""><option value="">Choose a style</option><option>Modern</option><option>Minimalist</option><option>Traditional</option><option>Scandinavian</option><option>Luxury</option><option>Industrial</option></select>
+        </div>
+        <div class="field">
+         <label for="h-size">Room size</label><input id="h-size" name="size" placeholder="e.g. 12 × 14 ft">
+        </div>
+        <div class="field">
+         <label for="h-count">Number of items required *</label><input id="h-count" name="count" type="number" min="1" max="30" step="1" required="" placeholder="6">
+        </div>
+        <div class="field">
+         <label for="h-colors">Preferred colors</label><input id="h-colors" name="colors" placeholder="e.g. warm neutrals">
+        </div>
+        <div class="field">
+         <label for="h-priority">Priority</label><select id="h-priority" name="priority"><option>Balanced</option><option>Budget-friendly</option><option>Premium</option></select>
+        </div>
+        <div class="field full">
+         <label for="h-notes">Additional requirements</label><textarea id="h-notes" name="notes" placeholder="Tell us about storage, lighting or a particular look."></textarea>
+        </div>
+       </div>
+       <p id="error-home" class="error-text" role="alert"></p><button type="submit" class="btn primary mt-5">Generate demo home plan <i data-lucide="sparkles" class="icon"></i></button>
+      </form>
+     </section>
+     <section id="view-party-planner" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Planner 02</span>
+        <h1 class="serif">Party Budget Planner</h1>
+        <p class="muted">Bring the details together, one estimate at a time.</p>
+       </div>
+      </div>
+      <div class="card planner-banner">
+       <div>
+        <span class="pill">CELEBRATIONS</span>
+        <h2 class="text-xl font-bold mt-4">Make every guest feel considered.</h2>
+        <p class="muted mt-2">Venue availability and catering prices are not verified.</p>
+       </div>
+       <div class="photo-slot">
+        <img data-template-id="planner-party-photo" class="canva-image photo" loading="lazy" src="https://images.pexels.com/photos/1729797/pexels-photo-1729797.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Birthday cake with lit sparklers and fresh strawberries">
+       </div>
+      </div>
+      <form id="form-party" class="card form-card" novalidate="">
+       <div class="form-grid">
+        <div class="field">
+         <label for="p-budget">Total event budget (₹) *</label><input id="p-budget" name="budget" type="number" min="1" step="1" required="" placeholder="50000">
+        </div>
+        <div class="field">
+         <label for="p-event">Event type *</label><select id="p-event" name="event" required=""><option value="">Choose an event</option><option>Birthday</option><option>Wedding</option><option>Engagement</option><option>Anniversary</option><option>College Event</option><option>Other</option></select>
+        </div>
+        <div class="field">
+         <label for="p-guests">Guest count *</label><input id="p-guests" name="guests" type="number" min="1" max="10000" step="1" required="" placeholder="30">
+        </div>
+        <div class="field">
+         <label for="p-date">Event date *</label><input id="p-date" name="date" type="date" required="">
+        </div>
+        <div class="field">
+         <label for="p-city">City or location *</label><input id="p-city" name="city" required="" placeholder="e.g. Chennai">
+        </div>
+        <div class="field">
+         <label for="p-venue">Venue preference</label><select id="p-venue" name="venue"><option>Home</option><option>Community hall</option><option>Restaurant</option><option>Outdoor</option><option>Flexible</option></select>
+        </div>
+        <div class="field">
+         <label for="p-food">Food preference</label><select id="p-food" name="food"><option>Vegetarian</option><option>Non-Vegetarian</option><option>Vegan</option><option>Mixed</option></select>
+        </div>
+        <div class="field">
+         <label for="p-decor">Decoration style</label><input id="p-decor" name="decor" placeholder="e.g. floral, understated">
+        </div>
+        <div class="field">
+         <label for="p-duration">Event duration (hours)</label><input id="p-duration" name="duration" type="number" min="1" max="72" value="4">
+        </div>
+        <div class="field full">
+         <label for="p-notes">Additional requirements</label><textarea id="p-notes" name="notes" placeholder="Dietary considerations, music, accessibility…"></textarea>
+        </div>
+       </div>
+       <p id="error-party" class="error-text" role="alert"></p><button type="submit" class="btn primary mt-5">Generate demo party plan <i data-lucide="sparkles" class="icon"></i></button>
+      </form>
+     </section>
+     <section id="view-jewelry-planner" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Planner 03</span>
+        <h1 class="serif">Jewelry Planner</h1>
+        <p class="muted">Explore an occasion-ready look within your price range.</p>
+       </div>
+      </div>
+      <div class="card planner-banner">
+       <div>
+        <span class="pill">PERSONAL STYLE</span>
+        <h2 class="text-xl font-bold mt-4">A finishing touch that feels like you.</h2>
+        <p class="muted mt-2">An outfit image can be previewed, but is not analyzed in demo mode.</p>
+       </div>
+       <div class="photo-slot">
+        <img data-template-id="planner-jewelry-photo" class="canva-image photo" loading="lazy" src="https://images.pexels.com/photos/36160928/pexels-photo-36160928.jpeg" alt="Necklace and earrings displayed against a dark background">
+       </div>
+      </div>
+      <form id="form-jewelry" class="card form-card" novalidate="">
+       <div class="form-grid">
+        <div class="field">
+         <label for="j-budget">Budget (₹) *</label><input id="j-budget" name="budget" type="number" min="1" step="1" required="" placeholder="8000">
+        </div>
+        <div class="field">
+         <label for="j-occasion">Occasion *</label><select id="j-occasion" name="occasion" required=""><option value="">Choose an occasion</option><option>Wedding</option><option>Engagement</option><option>Party</option><option>Festival</option><option>Office</option><option>Daily Wear</option></select>
+        </div>
+        <div class="field">
+         <label for="j-type">Jewelry type *</label><select id="j-type" name="type" required=""><option value="">Choose a type</option><option>Necklace</option><option>Earrings</option><option>Bracelet</option><option>Ring</option><option>Chain</option><option>Complete Set</option></select>
+        </div>
+        <div class="field">
+         <label for="j-metal">Preferred metal *</label><select id="j-metal" name="metal" required=""><option value="">Choose a material</option><option>Gold</option><option>Silver</option><option>Rose Gold</option><option>Platinum</option><option>Fashion Jewelry</option></select>
+        </div>
+        <div class="field">
+         <label for="j-style">Style preference</label><input id="j-style" name="style" placeholder="e.g. delicate, statement">
+        </div>
+        <div class="field">
+         <label for="j-color">Outfit color</label><input id="j-color" name="color" placeholder="e.g. emerald green">
+        </div>
+        <div class="field full">
+         <label for="j-notes">Additional preferences</label><textarea id="j-notes" name="notes" placeholder="Share your preferred stones, details or finish."></textarea>
+        </div>
+        <div class="field full">
+         <label for="j-image">Optional outfit image (JPG, PNG or WebP; up to 5 MB)</label><input id="j-image" name="image" type="file" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp">
+         <p id="image-status" class="hint" role="status">No image attached.</p>
+         <div id="image-preview" class="mt-3"></div><button id="remove-image" type="button" class="btn subtle mt-3" hidden="">Remove image</button>
+        </div>
+       </div>
+       <p id="error-jewelry" class="error-text" role="alert"></p><button type="submit" class="btn primary mt-5">Generate demo jewelry ideas <i data-lucide="sparkles" class="icon"></i></button>
+      </form>
+     </section>
+     <section id="view-result" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Your estimate</span>
+        <h1 class="serif">A plan worth exploring.</h1>
+       </div>
+      </div>
+      <div id="result-content"></div>
+     </section>
+     <section id="view-recommendations" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Your collection</span>
+        <h1 class="serif">My Recommendations</h1>
+        <p class="muted">Plans you have chosen to save in this browser.</p>
+       </div>
+      </div>
+      <div class="notice mb-5">
+       Across saved plans only. These are separate planning scenarios, not purchases.
+      </div>
+      <div id="saved-list"></div>
+     </section>
+     <section id="view-history" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Planning archive</span>
+        <h1 class="serif">Recommendation History</h1>
+        <p class="muted">Search, review and reuse plans you saved here.</p>
+       </div>
+      </div>
+      <div class="filters mb-5">
+       <label class="sr-only" for="history-search">Search plans</label><input id="history-search" placeholder="Search plans"><label class="sr-only" for="history-category">Filter category</label><select id="history-category"><option value="all">All categories</option><option value="home">Home</option><option value="party">Party</option><option value="jewelry">Jewelry</option></select><label class="sr-only" for="history-sort">Sort plans</label><select id="history-sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
+      </div>
+      <div id="history-list"></div>
+     </section>
+     <section id="view-insights" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Across saved plans</span>
+        <h1 class="serif">Budget Insights</h1>
+        <p class="muted">A look at your saved planning scenarios—not a personal account balance.</p>
+       </div>
+      </div>
+      <div id="insights-content"></div>
+     </section>
+     <section id="view-profile" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Personalize the demo</span>
+        <h1 class="serif">Profile</h1>
+        <p class="muted">Optional display details for this browser only. No account is created.</p>
+       </div>
+      </div>
+      <form id="profile-form" class="card form-card max-w-2xl">
+       <div class="form-grid">
+        <div class="field full">
+         <label for="profile-name">Display name</label><input id="profile-name" maxlength="60" placeholder="What should we call you?">
+        </div>
+        <div class="field full">
+         <label for="profile-preference">Planning preference</label><select id="profile-preference"><option>Balanced</option><option>Budget-friendly</option><option>Premium</option></select>
+        </div>
+       </div><button type="submit" class="btn primary mt-5">Save display preferences</button>
+      </form>
+     </section>
+     <section id="view-settings" class="app-view" hidden="">
+      <div class="view-head">
+       <div>
+        <span class="eyebrow">Prototype configuration</span>
+        <h1 class="serif">Settings &amp; integration</h1>
+       </div>
+      </div>
+      <div class="grid2">
+       <div class="card p-6">
+        <h2 class="font-bold text-lg">Demo preferences</h2>
+        <p class="muted text-sm mt-2">Currency: INR (₹). Recommendations use illustrative calculations and are not generated by Gemini.</p>
+        <p class="notice mt-5">Saved plans stay in this browser on this device. This demo does not offer secure accounts, password storage or cross-device sync.</p><button id="clear-data" type="button" class="btn danger mt-5">Delete my browser demo data</button>
+       </div>
+       <div class="card p-6">
+        <h2 class="font-bold text-lg">FastAPI integration contract</h2>
+        <p class="muted text-sm mt-2">For a real deployment, place <strong>GEMINI_API_KEY</strong> and JWT/session secrets in the server’s <strong>.env</strong> file. Never place secrets in browser code. Authenticate and hash passwords server-side with Argon2id or bcrypt.</p>
+        <details class="faq mt-4">
+         <summary>View planned API routes</summary>
+         <p class="text-sm leading-7">POST /register · POST /token · POST /logout · GET /session-info · GET /session-data · POST /session-data · POST /generate-home · POST /generate-party · POST /generate-jewelry (multipart) · GET /history · GET /recommendation-details/{id}</p>
+        </details>
+        <p class="muted text-xs mt-4">A production FastAPI/Jinja2/SQLite/Gemini implementation requires its own server, validation, secure session management, and verified merchant integrations.</p>
+       </div>
+      </div>
+     </section>
+    </main>
+   </div>
+  </div>
+  <div id="dialog" class="modal-backdrop" hidden="">
+   <div class="modal" role="alertdialog" aria-modal="true" aria-labelledby="dialog-title" aria-describedby="dialog-copy">
+    <h2 id="dialog-title" class="font-bold text-xl">Confirm action</h2>
+    <p id="dialog-copy" class="muted mt-3"></p>
+    <div class="flex justify-end flex-wrap gap-2 mt-6">
+     <button id="dialog-cancel" class="btn secondary" type="button">Cancel</button><button id="dialog-confirm" class="btn danger" type="button">Confirm</button>
+    </div>
+   </div>
+  </div>
+  <div id="toast" class="toast" role="status" hidden=""></div>
+  <script>
+  (() => {
+    "use strict";
+    const $ = id => document.getElementById(id);
+    const money = value => new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(Number(value)||0);
+    const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const storeKey="pocketsmart_demo_plans_v1", profileKey="pocketsmart_demo_profile_v1";
+    const readJSON=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}};
+    const state={plans:readJSON(storeKey,[]),profile:readJSON(profileKey,{name:"",preference:"Balanced"}),current:null,previous:"overview",imageFile:null,imageURL:null,dialogAction:null,toastTimer:null};
+    if(!Array.isArray(state.plans)) state.plans=[];
+    const writePlans=()=>{try{localStorage.setItem(storeKey,JSON.stringify(state.plans));return true}catch{toast("Could not save: browser storage may be unavailable or full.");return false}};
+    const icon=()=>{if(window.lucide) lucide.createIcons()};
+    const toast=message=>{const el=$("toast");el.textContent=message;el.hidden=false;clearTimeout(state.toastTimer);state.toastTimer=setTimeout(()=>el.hidden=true,4500)};
+    const titles={overview:"Overview","home-planner":"Home Interior Planner","party-planner":"Party Planner","jewelry-planner":"Jewelry Planner",result:"Plan details",recommendations:"My Recommendations",history:"Recommendation History",insights:"Budget Insights",profile:"Profile",settings:"Settings"};
+    const planners={home:"home-planner",party:"party-planner",jewelry:"jewelry-planner"};
+    const catName={home:"Home interior",party:"Party",jewelry:"Jewelry"};
+    const photos={
+      home:"https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
+      party:"https://images.pexels.com/photos/1729797/pexels-photo-1729797.jpeg?auto=compress&cs=tinysrgb&w=800",
+      jewelry:"https://images.pexels.com/photos/36160928/pexels-photo-36160928.jpeg"
+    };
+    const renderPhoto=(category,alt)=>`<img class="item-thumb" src="${photos[category]}" alt="${escapeHTML(alt)}" loading="lazy" onerror="this.style.visibility='hidden'">`;
+    const stamp=iso=>new Intl.DateTimeFormat("en-IN",{day:"numeric",month:"short",year:"numeric"}).format(new Date(iso));
+    const total=plan=>plan.items.reduce((sum,item)=>sum+item.price*item.qty,0);
+    const remaining=plan=>Math.max(0,plan.budget-total(plan));
+    const categories=plan=>Object.entries(plan.items.reduce((out,item)=>(out[item.category]=(out[item.category]||0)+item.price*item.qty,out),{}));
+    const go=view=>{location.hash=view};
+    function route(){
+      let view=decodeURIComponent(location.hash.slice(1))||"home";
+      if(view==="features"||view==="how"||view==="about"||view==="testimonials"){ $("landing").hidden=false;$("workspace").hidden=true;requestAnimationFrame(()=>$(view)?.scrollIntoView());return }
+      if(view==="home"){$("landing").hidden=false;$("workspace").hidden=true;window.scrollTo(0,0);return}
+      if(!titles[view]) view="overview";
+      $("landing").hidden=true;$("workspace").hidden=false;
+      document.querySelectorAll(".app-view").forEach(el=>el.hidden=el.id!=="view-"+view);
+      document.querySelectorAll(".side-btn").forEach(el=>{el.classList.toggle("active",el.dataset.view===view);if(el.dataset.view===view)el.setAttribute("aria-current","page");else el.removeAttribute("aria-current")});
+      $("top-title").textContent=titles[view];$("breadcrumb").textContent="Workspace / "+titles[view];
+      $("sidebar").classList.remove("open");$("menu-toggle").setAttribute("aria-expanded","false");
+      if(view==="overview") renderOverview();
+      if(view==="history"||view==="recommendations")renderLists();
+      if(view==="insights")renderInsights();
+      if(view==="profile")renderProfile();
+      if(view==="result"&&!state.current){go("history");return}
+      window.scrollTo(0,0);
+    }
+    document.addEventListener("click",event=>{
+      const target=event.target.closest("[data-view]");
+      if(target){event.preventDefault();go(target.dataset.view)}
+      const action=event.target.closest("[data-action]");
+      if(action) handleAction(action.dataset.action,action.dataset.id);
+    });
+    $("menu-toggle").addEventListener("click",()=>{const open=$("sidebar").classList.toggle("open");$("menu-toggle").setAttribute("aria-expanded",String(open))});
+    window.addEventListener("hashchange",route);
+
+    // FastAPI adapter contract: POST /register, POST /token, POST /logout;
+    // GET /session-info, GET /session-data; POST /session-data;
+    // POST /generate-home, POST /generate-party, POST /generate-jewelry (multipart);
+    // GET /history, GET /recommendation-details/{id}.
+    // This sandbox uses demo calculations only. Production FastAPI/Jinja2/SQLite
+    // must implement authorization, validation, persistence and server-side Gemini calls.
+    // GEMINI_API_KEY and JWT/session secrets belong in server .env, never here.
+    const FastAPIAdapter={
+      async register(){throw Error("Registration requires a secure server.")},
+      async token(){throw Error("Authentication requires a secure server.")},
+      async logout(){throw Error("Authentication requires a secure server.")},
+      async sessionInfo(){return {mode:"demo",authenticated:false}},
+      async sessionData(){return {mode:"demo"}},
+      async updateSessionData(){return {mode:"demo"}},
+      async generateHome(input){return generateHome(input)},
+      async generateParty(input){return generateParty(input)},
+      async generateJewelry(input,file){return generateJewelry(input,!!file)},
+      async history(){return state.plans.slice()},
+      async recommendationDetails(id){return state.plans.find(p=>p.id===id)||null}
+    };
+    void FastAPIAdapter;
+
+    function allocate(budget,definitions,ratio=.87){
+      const target=Math.max(0,Math.floor(budget*ratio)),weights=definitions.reduce((n,d)=>n+d[2],0);
+      let used=0;
+      return definitions.map((d,index)=>{
+        const amount=index===definitions.length-1?target-used:Math.floor(target*d[2]/weights);
+        used+=amount;
+        const qty=Math.max(1,Number(d[3])||1),price=Math.floor(amount/qty);
+        return {category:d[0],name:d[1],description:d[4],qty,price,search:d[5]||d[1]};
+      });
+    }
+    function generateHome(input){
+      const count=Number(input.count),room=input.room,style=input.style;
+      const options=[
+        ["Furniture",`${style} ${room.toLowerCase()} furniture`,"A practical main piece chosen as a starting point for your room.",3,`${style} furniture ${room}`],
+        ["Lighting",`Warm ambient lighting`,"Layered lighting to create a comfortable atmosphere.",2,"warm room lighting"],
+        ["Wall decor",`Coordinated wall accents`,"A simple visual accent for your selected style.",1,"wall decor"],
+        ["Storage",`Space-saving storage`,"Keep essentials organized without crowding the room.",2,"storage organizer"],
+        ["Rugs",`Soft area rug`,"A tactile layer to define the space.",1,"area rug"],
+        ["Accessories",`Finishing accessories`,"Small complementary details in your chosen palette.",1,"home accessories"]
+      ];
+      const chosen=options.slice(0,Math.min(count,options.length));
+      const defs=chosen.map(([category,name,description,weight,search],i)=>[category,name,weight,i===0?Math.max(1,count-chosen.length+1):1,`${description}${input.colors?" Suggested palette: "+input.colors+".":""}`,search]);
+      const ratio=input.priority==="Premium"?.94:input.priority==="Budget-friendly"?.74:.85;
+      return allocate(Number(input.budget),defs,ratio);
+    }
+    function generateParty(input){
+      const guests=Number(input.guests),budget=Number(input.budget),low=budget/guests<350;
+      const venue=input.venue==="Home"?"Home-based gathering":`${input.venue} estimate`;
+      const defs=[
+        ["Venue",low?"Home or shared-space setup":venue,low?1:2,1,"Illustrative venue allocation; check suitability and availability independently.",`${input.city} ${input.venue} event venue`],
+        ["Food / catering",low?`${input.food} shared menu`:`${input.food} catering estimate`,5,guests,"Illustrative per-person food allowance, not a catering quote.",`${input.city} ${input.food} catering`],
+        ["Decorations",`${input.decor||"Simple"} decorations`,1,1,"Reusable and affordable visual details.","party decorations"],
+        ["Cake / desserts",input.event==="Birthday"?"Celebration cake":"Dessert selection",1,1,"A modest dessert allocation.","celebration desserts"],
+        ["Entertainment","Music and activities",1,1,"Use a playlist and simple shared activities.","party games music"],
+        ["Photography","Photo corner and memories",1,1,"A self-service photo area; professional coverage is not included.","party photo backdrop"],
+        ["Other expenses","Practical supplies",1,1,"Allow for serving supplies and small essentials.","event supplies"]
+      ];
+      return {items:allocate(budget,defs,low?.72:.89),low};
+    }
+    function generateJewelry(input,attached){
+      const budget=Number(input.budget),metal=input.metal,type=input.type,style=input.style||"versatile";
+      const defs=[
+        ["Main piece",`${style} ${metal.toLowerCase()} ${type.toLowerCase()}`,7,1,`An illustrative ${type.toLowerCase()} idea for ${input.occasion.toLowerCase()}; the ${input.color||"chosen"} outfit color was supplied as text, not detected from an image.`,`${metal} ${style} ${type}`],
+        ["Complement","Coordinating finishing detail",2,1,"A subtle complementary accent; omit it if you prefer one statement piece.",`${metal} jewelry accessories`]
+      ];
+      return {items:allocate(budget,defs,.86),attached};
+    }
+    function formInput(form){return Object.fromEntries(new FormData(form).entries())}
+    function validate(kind,input){
+      const budget=Number(input.budget);
+      if(!Number.isFinite(budget)||budget<=0||budget>1e9)return "Enter a positive budget below ₹1,00,00,00,000.";
+      if(kind==="home"&&(!input.room||!input.style||!Number.isInteger(Number(input.count))||Number(input.count)<1||Number(input.count)>30))return "Choose a room and style, then enter 1–30 required items.";
+      if(kind==="party"){
+        if(!input.event||!input.city.trim())return "Choose an event and enter its location.";
+        if(!Number.isInteger(Number(input.guests))||Number(input.guests)<1||Number(input.guests)>10000)return "Enter a guest count between 1 and 10,000.";
+        if(!input.date||new Date(input.date+"T12:00:00").getTime()<new Date().setHours(0,0,0,0))return "Choose today or a future event date.";
+      }
+      if(kind==="jewelry"&&(!input.occasion||!input.type||!input.metal))return "Choose an occasion, jewelry type and preferred material.";
+      return "";
+    }
+    for(const kind of ["home","party","jewelry"]){
+      $("form-"+kind).addEventListener("submit",async event=>{
+        event.preventDefault();
+        const form=event.currentTarget,input=formInput(form),error=$("error-"+kind);
+        delete input.image;
+        const message=validate(kind,input);
+        error.textContent=message;
+        if(message){form.querySelector(":invalid")?.focus();return}
+        const submit=form.querySelector('[type="submit"]');submit.disabled=true;
+        try{
+          await new Promise(resolve=>setTimeout(resolve,450));
+          const result=kind==="home"?await FastAPIAdapter.generateHome(input):kind==="party"?await FastAPIAdapter.generateParty(input):await FastAPIAdapter.generateJewelry(input,state.imageFile);
+          const items=Array.isArray(result)?result:result.items;
+          state.current={id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),kind,input,budget:Number(input.budget),items,created:new Date().toISOString(),saved:false,low:!!result.low,attached:!!result.attached};
+          state.previous=planners[kind];renderResult();go("result");toast("Demo estimate generated. No Gemini request was made.");
+        }catch{error.textContent="Unable to build this demo plan. Please retry."}finally{submit.disabled=false}
+      });
+    }
+    const breakdownHTML=plan=>categories(plan).map(([category,value])=>`<div class="break-row"><span>${escapeHTML(category)}</span><strong>${money(value)}</strong></div><div class="bar"><div class="bar-fill" style="width:${Math.min(100,value/plan.budget*100)}%"></div></div>`).join("");
+    function renderResult(){
+      const p=state.current;if(!p)return;
+      const names={home:`${p.input.room} · ${p.input.style}`,party:`${p.input.event} · ${p.input.city}`,jewelry:`${p.input.occasion} · ${p.input.type}`};
+      const details=p.kind==="party"?`<p class="notice mt-4">Estimated per guest: <strong>${money(total(p)/Number(p.input.guests))}</strong>. This is not a venue booking or verified quote.</p>${p.low?'<p class="notice warning mt-3">This budget may be insufficient for a typical hosted event at this guest count. Consider a home venue, shared food, fewer guests or a larger budget.</p>':""}`:p.kind==="jewelry"?`<p class="notice mt-4">Outfit image: <strong>${p.attached?"Attached locally for preview; not uploaded in demo mode.":"No image attached."}</strong> Outfit analysis: <strong>Not analyzed in demo mode.</strong></p>`:"";
+      const itemHTML=p.items.map(item=>`<article class="result-item">${renderPhoto(p.kind,item.name)}<div class="flex-1 min-w-0"><div class="flex flex-wrap justify-between gap-2"><h3 class="font-bold">${escapeHTML(item.name)}</h3><strong>${money(item.price*item.qty)}</strong></div><p class="muted text-sm mt-1">${escapeHTML(item.description)}</p><p class="text-xs muted mt-2">Quantity ${item.qty} · Estimated unit price ${money(item.price)} · Illustrative demo estimate</p><a href="https://www.google.com/search?q=${encodeURIComponent(item.search+" India")}" target="_blank" rel="noopener noreferrer" class="text-blue-700 font-bold text-sm inline-block mt-2">Search on platform ↗</a></div></article>`).join("");
+      const inputs=Object.entries(p.input).map(([key,val])=>`<div class="break-row"><span>${escapeHTML(key.replace(/_/g," "))}</span><strong class="text-right break-all">${escapeHTML(val||"Not specified")}</strong></div>`).join("");
+      $("result-content").innerHTML=`<div class="notice mb-5"><strong>Demo data — connect Gemini to enable live AI recommendations.</strong> Prices, product ideas and search terms are illustrative; no listings or availability have been verified.</div><div class="grid2 mb-5"><div class="card p-6"><span class="eyebrow">${escapeHTML(catName[p.kind])}</span><h2 class="font-bold text-xl mt-2">${escapeHTML(names[p.kind])}</h2><p class="muted text-sm mt-2">Created ${stamp(p.created)} · ${p.saved?"Saved in this browser":"Unsaved preview"}</p>${details}</div><div class="card p-6"><h2 class="font-bold text-lg">Plan summary</h2><div class="break-row"><span>Entered budget</span><strong>${money(p.budget)}</strong></div><div class="break-row"><span>Estimated plan cost</span><strong>${money(total(p))}</strong></div><div class="break-row"><span>Remaining in this plan</span><strong class="text-emerald-700">${money(remaining(p))}</strong></div><div class="bar mt-4"><div class="bar-fill" style="width:${Math.min(100,total(p)/p.budget*100)}%"></div></div></div></div><div class="grid2"><section class="card p-6"><h2 class="font-bold text-lg mb-4">Recommendation details</h2><div class="space-y-3">${itemHTML}</div></section><div class="space-y-5"><section class="card p-6"><h2 class="font-bold text-lg mb-4">Budget breakdown</h2>${breakdownHTML(p)}</section><section class="card p-6"><h2 class="font-bold text-lg mb-3">Original preferences</h2>${inputs}</section><section class="notice">${p.kind==="party"?"General planning tips: request itemized catering quotes, compare local venues and keep a contingency buffer.":p.kind==="jewelry"?"General styling tips: balance statement pieces with quieter accessories, and confirm materials before purchasing.":"General planning tips: prioritize essential items, compare multiple sellers and leave a buffer for delivery."}</section></div></div><div class="flex flex-wrap gap-2 mt-6"><button data-action="save" class="btn primary" type="button">${p.saved?"Saved ✓":"Save plan"}</button><button data-action="regenerate" class="btn secondary" type="button">Regenerate</button><button data-action="reuse" data-id="${escapeHTML(p.id)}" class="btn secondary" type="button">Edit preferences</button><button data-view="overview" class="btn subtle" type="button">Back to overview</button></div>`;
+    }
+    function renderOverview(){
+      const plans=state.plans,savedTotal=plans.reduce((n,p)=>n+total(p),0);
+      $("welcome").textContent=state.profile.name?`Welcome, ${state.profile.name}.`:"Welcome to PocketSmart.";
+      $("overview-stats").innerHTML=[
+        ["Saved plans",plans.length,"Plans stored in this browser"],
+        ["Estimated planned amount",money(savedTotal),"Across saved plan estimates"],
+        ["Categories explored",new Set(plans.map(p=>p.kind)).size,"Across saved plans"]
+      ].map(([label,value,small])=>`<div class="card stat-card"><span class="muted text-sm">${label}</span><strong>${value}</strong><span class="text-xs muted">${small}</span></div>`).join("");
+      $("recent-activity").innerHTML=plans.length?[...plans].sort((a,b)=>b.created.localeCompare(a.created)).slice(0,4).map(p=>`<div class="activity-row"><div><strong>${escapeHTML(catName[p.kind])} plan</strong><p class="hint">${stamp(p.created)} · ${money(total(p))} estimate</p></div><button data-action="open" data-id="${escapeHTML(p.id)}" class="btn subtle !p-2 text-xs" type="button">Open</button></div>`).join(""):'<div class="empty">No saved activity yet. Choose a planner to begin.</div>';
+      $("overview-budget").innerHTML=plans.length?`<p class="muted text-sm mb-4">Across saved plans: ${money(savedTotal)} in estimated costs. Separate plans are not a combined spending balance.</p>${["home","party","jewelry"].map(kind=>{const n=plans.filter(p=>p.kind===kind).reduce((sum,p)=>sum+total(p),0);return n?`<div class="break-row"><span>${catName[kind]}</span><strong>${money(n)}</strong></div><div class="bar"><div class="bar-fill" style="width:${n/savedTotal*100}%"></div></div>`:""}).join("")}`:'<div class="empty">Your budget overview will appear after you save a plan.</div>';
+    }
+    function planCard(p){return `<article class="card p-5 mb-3"><div class="flex flex-wrap justify-between items-start gap-3"><div><span class="eyebrow">${escapeHTML(catName[p.kind])}</span><h2 class="font-bold text-lg mt-1">${escapeHTML(p.kind==="home"?p.input.room+" · "+p.input.style:p.kind==="party"?p.input.event+" · "+p.input.city:p.input.occasion+" · "+p.input.type)}</h2><p class="muted text-sm mt-1">${stamp(p.created)} · Saved in this browser</p></div><span class="pill">${money(total(p))} estimated</span></div><div class="grid3 text-sm mt-5"><div>Budget <strong class="block">${money(p.budget)}</strong></div><div>Estimated <strong class="block">${money(total(p))}</strong></div><div>Remaining in this plan <strong class="block">${money(remaining(p))}</strong></div></div><div class="flex flex-wrap gap-2 mt-5"><button data-action="open" data-id="${escapeHTML(p.id)}" type="button" class="btn primary !py-2">Open details</button><button data-action="reuse" data-id="${escapeHTML(p.id)}" type="button" class="btn secondary !py-2">Reuse inputs</button><button data-action="delete" data-id="${escapeHTML(p.id)}" type="button" class="btn danger !py-2">Remove saved plan</button></div></article>`}
+    function renderLists(){
+      const q=$("history-search").value.trim().toLowerCase(),category=$("history-category").value,old=$("history-sort").value==="old";
+      const matching=state.plans.filter(p=>(category==="all"||p.kind===category)&&JSON.stringify(p.input).toLowerCase().includes(q)).sort((a,b)=>old?a.created.localeCompare(b.created):b.created.localeCompare(a.created));
+      $("history-list").innerHTML=matching.length?matching.map(planCard).join(""):'<div class="empty">No matching saved plans. Try a different search or create a new plan.</div>';
+      $("saved-list").innerHTML=state.plans.length?state.plans.slice().sort((a,b)=>b.created.localeCompare(a.created)).map(planCard).join(""):'<div class="empty">No saved recommendations yet. Generate a plan and select “Save plan” to add it here.</div>';
+    }
+    ["history-search","history-category","history-sort"].forEach(id=>$(id).addEventListener(id==="history-search"?"input":"change",renderLists));
+    function renderInsights(){
+      const plans=state.plans;
+      if(!plans.length){$("insights-content").innerHTML='<div class="empty">No saved plan data to chart yet. Save a plan to see category allocation and activity.</div>';return}
+      const sum=plans.reduce((n,p)=>n+total(p),0);
+      const categoryHTML=["home","party","jewelry"].map(kind=>{const value=plans.filter(p=>p.kind===kind).reduce((n,p)=>n+total(p),0);return value?`<div class="break-row"><span>${catName[kind]}</span><strong>${money(value)} · ${Math.round(value/sum*100)}%</strong></div><div class="bar"><div class="bar-fill" style="width:${value/sum*100}%"></div></div>`:""}).join("");
+      const recent=plans.slice().sort((a,b)=>b.created.localeCompare(a.created)).slice(0,5).map(p=>`<div class="activity-row"><span>${stamp(p.created)} · ${catName[p.kind]}</span><strong>${money(total(p))}</strong></div>`).join("");
+      $("insights-content").innerHTML=`<div class="card p-6 mb-5"><span class="eyebrow">Across saved plans</span><h2 class="serif text-3xl mt-2">${money(sum)}</h2><p class="muted text-sm mt-2">Aggregate of saved plan estimates. This does not represent actual spending or an available personal balance.</p></div><div class="grid2"><section class="card p-6"><h2 class="font-bold text-lg mb-3">Category distribution</h2>${categoryHTML}</section><section class="card p-6"><h2 class="font-bold text-lg mb-3">Recent planning activity</h2>${recent}</section></div><p class="notice mt-5">General planning tips, not live AI advice: compare quotes, prioritize essentials and keep a buffer for unexpected costs.</p>`;
+    }
+    function renderProfile(){$("profile-name").value=state.profile.name||"";$("profile-preference").value=state.profile.preference||"Balanced"}
+    $("profile-form").addEventListener("submit",event=>{event.preventDefault();state.profile={name:$("profile-name").value.trim(),preference:$("profile-preference").value};try{localStorage.setItem(profileKey,JSON.stringify(state.profile));toast("Display preferences saved in this browser.")}catch{toast("Browser storage is unavailable.")}});
+    function confirmAction(message,action){$("dialog-copy").textContent=message;state.dialogAction=action;$("dialog").hidden=false;$("dialog-cancel").focus()}
+    function closeDialog(){$("dialog").hidden=true;state.dialogAction=null}
+    $("dialog-cancel").addEventListener("click",closeDialog);
+    $("dialog-confirm").addEventListener("click",()=>{const action=state.dialogAction;closeDialog();if(action)action()});
+    $("dialog").addEventListener("click",e=>{if(e.target===$("dialog"))closeDialog()});
+    document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("dialog").hidden)closeDialog();if(e.key==="Tab"&&!$("dialog").hidden){const focusables=[$("dialog-cancel"),$("dialog-confirm")],index=focusables.indexOf(document.activeElement);if(e.shiftKey&&index===0){e.preventDefault();focusables[1].focus()}else if(!e.shiftKey&&index===1){e.preventDefault();focusables[0].focus()}}});
+    $("clear-data").addEventListener("click",()=>confirmAction("Remove all saved demo plans and display preferences from this browser? This cannot be undone.",()=>{state.plans=[];state.profile={name:"",preference:"Balanced"};state.current=null;localStorage.removeItem(storeKey);localStorage.removeItem(profileKey);toast("Browser demo data removed.");go("overview")}));
+    function reuse(p){const form=$("form-"+p.kind);for(const [key,value] of Object.entries(p.input)){const field=form.elements.namedItem(key);if(field&&field.type!=="file")field.value=value}go(planners[p.kind]);toast("Previous inputs restored. Review them before generating a new plan.")}
+    async function handleAction(action,id){
+      if(action==="save"){const p=state.current;if(!p)return;if(state.plans.some(item=>item.id===p.id)){toast("This plan is already saved.");return}p.saved=true;state.plans.unshift(p);if(!writePlans()){state.plans.shift();p.saved=false;return}renderResult();toast("Plan saved in this browser.");return}
+      if(action==="regenerate"){if(!state.current)return;const p=state.current;const result=p.kind==="home"?await FastAPIAdapter.generateHome(p.input):p.kind==="party"?await FastAPIAdapter.generateParty(p.input):await FastAPIAdapter.generateJewelry(p.input,state.imageFile);state.current={...p,id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),created:new Date().toISOString(),items:Array.isArray(result)?result:result.items,saved:false};renderResult();toast("A new unsaved demo estimate is ready.");return}
+      const p=id===state.current?.id?state.current:await FastAPIAdapter.recommendationDetails(id);
+      if(!p){toast("That plan could not be found in this browser.");return}
+      if(action==="open"){state.current=p;renderResult();go("result")}
+      if(action==="reuse")reuse(p);
+      if(action==="delete")confirmAction("Remove this saved plan from this browser? This cannot be undone.",()=>{state.plans=state.plans.filter(item=>item.id!==id);if(state.current?.id===id)state.current=null;if(writePlans()){renderLists();toast("Saved plan removed.")}});
+    }
+    function clearImage(){if(state.imageURL)URL.revokeObjectURL(state.imageURL);state.imageURL=null;state.imageFile=null;$("j-image").value="";$("image-preview").replaceChildren();$("image-status").textContent="No image attached.";$("remove-image").hidden=true}
+    $("j-image").addEventListener("change",event=>{
+      const file=event.target.files[0];clearImage();if(!file)return;
+      if(!["image/jpeg","image/png","image/webp"].includes(file.type)||file.size>5*1024*1024){$("error-jewelry").textContent="Choose a JPG, PNG or WebP image no larger than 5 MB.";return}
+      $("error-jewelry").textContent="";state.imageFile=file;state.imageURL=URL.createObjectURL(file);
+      const preview=document.createElement("img");preview.src=state.imageURL;preview.alt="Preview of selected outfit image";preview.className="upload-preview";$("image-preview").append(preview);
+      $("image-status").textContent=`${file.name} attached locally. Not analyzed in demo mode.`;$("remove-image").hidden=false;
+    });
+    $("remove-image").addEventListener("click",clearImage);
+    document.querySelectorAll("img[data-template-id]").forEach(img=>img.addEventListener("error",()=>img.style.visibility="hidden"));
+    $("p-date").min=new Date().toLocaleDateString("en-CA");
+    route();icon();
+  })();
+  </script>
+ 
+</body></html>
